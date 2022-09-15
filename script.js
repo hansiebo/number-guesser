@@ -9,7 +9,7 @@ function generateTarget() {
 
 
 function compareGuesses(human, computer, target) {
-    if (Math.abs(target - human) <= Math.abs(target - computer) {
+    if (Math.abs(target - human) <= Math.abs(target - computer)) {
         return true;
     } else {
         return false;
